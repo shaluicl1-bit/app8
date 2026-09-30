@@ -1,13 +1,25 @@
+import java.util.*;
+
 public class main {
 
-    public static void main(String[] args) {
-        System.out.println("hola mundo");
+    public static void main(String[] args){
 
-        for (int i = 0; i < 11; i++) {
-            if (i % 2 == 0) {
-                System.out.println(i + " es par");
-            }
-            System.out.println("Número: " + i);
-        }
+        Scanner sc = new Scanner(System.in);
+
+        String nombre;
+        double salario;
+        int option;
+
+        System.out.println("**********");
+        System.out.println("Ingresa tu nombre");
+        System.out.println("Ingresa una opcion: ");
+        System.out.println("1. Programador");
+        System.out.println("2. Medico");
+        System.out.println("3. administrativo");
+
+
+
+
     }
+
 }
